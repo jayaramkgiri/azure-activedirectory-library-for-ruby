@@ -29,7 +29,7 @@ module ADAL
   # of the public key, however OpenSSL's object model does not include
   # thumbprints.
   class ClientAssertionCertificate
-    include RequestParameters
+    include ::RequestParameters
 
     MIN_KEY_SIZE_BITS = 2014
 
